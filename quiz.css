@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: yellowgreen;
 
   color: black;
 
@@ -10,9 +10,13 @@ body {
   margin-left: 2rem;
 }
 
+input {
+  margin-left: 5rem;
+}
 #button {
   background-color: black;
-  color: bisque;
+  color: yellowgreen;
   font-size: 18px;
   padding: 6px;
+  margin: 0 auto;
 }

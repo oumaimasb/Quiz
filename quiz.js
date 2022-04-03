@@ -29,10 +29,10 @@ function envoyer() {
   }
   quiz.style.display = "none";
 
-  if (result < 3) {
+  if (point < 3) {
     result.textContent = `Ton résultat est de ${point} point, KASSOULA`;
     sound1.play();
-  } else if (result == 3) {
+  } else if (point == 3) {
     result.textContent = `Ton résultat est de ${point} point, PAS MAL`;
     sound2.play();
   } else {
